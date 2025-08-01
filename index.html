@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REDEEMMarvinHuili</title>
+  <style>
+    :root {
+      --primary: #312e81;
+      --bg-light: #f9f9f9;
+      --card-bg: white;
+      --light-text: #d1d5db;
+    }
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", sans-serif;
+      background-color: var(--bg-light);
+      color: #333;
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+    header {
+      background-color: var(--primary);
+      color: white;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 20px;
+    }
+    .brand-highlight {
+      color: var(--light-text);
+      font-weight: normal;
+    }
+    .language {
+      background: none;
+      color: white;
+      border: 1px solid white;
+      padding: 4px 8px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .hero {
+      background-color: var(--primary);
+      color: white;
+      padding: 40px 24px;
+      text-align: left;
+    }
+    .hero h2 {
+      font-size: 32px;
+      margin: 0;
+    }
+    .hero p {
+      margin-top: 8px;
+      font-size: 18px;
+    }
+    .cards {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 32px 24px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .card {
+      background-color: var(--card-bg);
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .card h3 {
+      margin: 0 0 8px 0;
+      font-size: 20px;
+      color: var(--primary);
+    }
+    .card p {
+      margin: 0 0 12px 0;
+      color: #555;
+      font-size: 16px;
+    }
+    .card span {
+      font-size: 14px;
+      color: #555;
+      background: #e0e7ff;
+      padding: 4px 8px;
+      border-radius: 6px;
+      width: fit-content;
+    }
+    .arrow {
+      align-self: flex-end;
+      font-size: 20px;
+      color: var(--primary);
+      margin-top: 12px;
+    }
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>REDEEM<span class="brand-highlight">MarvinHuili</span></h1>
+    <button class="language">🌐 English</button>
+  </header>
+  <section class="hero">
+    <h2>Vouchers</h2>
+    <p>Explore ongoing campaigns</p>
+  </section>
+  <section class="cards">
+    <div class="card">
+      <h3>New Parent Vouchers (Marvin & Huili)</h3>
+      <p>For the new parents — redeemable for groceries, diapers, or whatever saves your sanity today. Because raising a human should come with coupons.</p>
+      <span>See gift card details for Valid until</span>
+      <a class="arrow" href="voucher-details.html">→</a>
+    </div>
+  </section>
+  <footer>
+    &copy; 2025 REDEEMMarvinHuili. A Singapore Government Initiative
+  </footer>
+</body>
+</html>
